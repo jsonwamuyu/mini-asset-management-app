@@ -8,7 +8,7 @@ const Homepage = () => {
       {/* Hero Section */}
       <div className="text-center py-20 px-4">
         <h1 className="text-4xl md:text-5xl font-semibold">
-          Welcome to <span className=" text-green-700 font-extrabold">Mini Asset Manager</span> 
+          Welcome to <span className=" text-indigo-700 font-extrabold">Mini Asset Manager</span> 
         </h1>
         <p className="mt-4 text-gray-600">
           <span className="font-bold">Track, manage, and control</span> your assets in <span className="font-bold">real time</span> — all from one dashboard.
