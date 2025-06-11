@@ -1,11 +1,20 @@
 import React from "react";
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Homepage from "./pages/Homepage.jsx";
+import Login from "./pages/Login.jsx";
+import Signup from "./pages/Signup.jsx";
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <h1 className="text-3xl font-bold text-blue-600">Hello, React + Tailwind!</h1>
-      <p>Welcome to our app.</p>
-    </div>
+    <Router>
+      <Routes>
+
+        <Route path="/" element={<Homepage />} />
+
+        
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
+    </Router>
   );
 };
 

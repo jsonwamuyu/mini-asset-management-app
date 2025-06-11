@@ -2,7 +2,12 @@
 export default {
   content: ['./src/**/*.{js,jsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        sans:["Poppins", "sans-serif"],
+        heading:['Inter', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 };
