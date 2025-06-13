@@ -1,0 +1,2 @@
+class AssetSerializer:
+    pass
